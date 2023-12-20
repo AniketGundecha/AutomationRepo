@@ -71,5 +71,10 @@ public class ok extends TestListenerAdapter{
 	public void test3() {
 		System.out.println("From Eclipse");
 	}
+	
+	@Test
+	public void test4() {
+		System.out.println("In Branch 1 code ");
+	}
 
 }
