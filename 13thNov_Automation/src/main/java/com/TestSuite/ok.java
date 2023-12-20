@@ -63,5 +63,9 @@ public class ok extends TestListenerAdapter{
 		System.out.println("Test2");
 	}
 	
+	@Test
+	public void test3() {
+		System.out.println("From Eclipse");
+	}
 
 }
