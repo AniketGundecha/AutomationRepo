@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 public class ok extends TestListenerAdapter{
 	
+
 	@Test
 	public void method() {
 		System.out.println("Hello GITHUB");
@@ -20,6 +21,7 @@ public class ok extends TestListenerAdapter{
 	public void method1() {
 		System.out.println("Hello World");
 	}
+
 	
 	@BeforeClass
 	public void beforeClass() {
