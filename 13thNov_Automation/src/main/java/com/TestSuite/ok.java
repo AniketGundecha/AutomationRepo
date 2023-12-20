@@ -24,7 +24,7 @@ public class ok extends TestListenerAdapter{
 
     @Test
     public void method2(){
-		System.out.println("Code From Visual Studio");
+		System.out.println("Code From Visual Studio - Code Conflict");
 	}
 
 	@BeforeClass
