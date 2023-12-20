@@ -22,7 +22,11 @@ public class ok extends TestListenerAdapter{
 		System.out.println("Hello World");
 	}
 
-	
+    @Test
+    public void method2(){
+		System.out.println("Code From Visual Studio");
+	}
+
 	@BeforeClass
 	public void beforeClass() {
 		System.out.println("Before Class");
