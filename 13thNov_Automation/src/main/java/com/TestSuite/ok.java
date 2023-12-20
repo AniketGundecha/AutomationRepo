@@ -16,6 +16,11 @@ public class ok extends TestListenerAdapter{
 		System.out.println("Hello GITHUB");
 	}
 	
+	@Test
+	public void method1() {
+		System.out.println("Hello World");
+	}
+	
 	@BeforeClass
 	public void beforeClass() {
 		System.out.println("Before Class");
