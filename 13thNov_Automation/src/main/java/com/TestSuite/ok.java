@@ -77,4 +77,8 @@ public class ok extends TestListenerAdapter{
 		System.out.println("In Branch 1 code ");
 	}
 
+@Test
+	public void test5() {
+		System.out.println("VS code In Branch1");
+	}
 }
