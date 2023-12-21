@@ -86,4 +86,10 @@ public class ok extends TestListenerAdapter{
 	public void test6() {
 		System.out.println("Branch1 - Edit from GITHUB Editor");
 	}
+
+    @Test
+	public void test7() {
+		System.out.println("Change in master branch to merge in branch1 - VS Code");
+	}
+
 }
